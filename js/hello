@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+"use strict";
+var c = require('skilstak-colors');
+
+console.log("hello world!");
+console.log(" nick is boring and grier is awesome and if you read this you is dead");
+console.log("bo ate nick then cleo ate bo then quinn ate cleo");
+console.log('nick ate 900000000000000000000000000 pouds of mcdonolds')
+
+function printPlainJello() { 
+ console.log('hello,jello')
+}
+
+var printColors  = function (message) {
+  console.log(c.multi(message));
+}
+
+
+
+var firstValue = process.argv[2];
+console.log(firstValue)
+
